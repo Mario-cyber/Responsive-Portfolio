@@ -26,5 +26,16 @@ body{
     width: 100%;
 }
 
-
+#logo {
+    width: 250px;
+    height: 90px;
+    float: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    line-height: 90px;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 30px;
+    text-decoration: none; 
+}
     
