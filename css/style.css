@@ -14,7 +14,7 @@ body{
     margin: 0 auto;
     clear: both;
 }
-/* just the header */
+
 
 .masthead{
     background: #ffffff;
@@ -23,19 +23,33 @@ body{
     color: #ffffff;
     overflow: auto;
     border-bottom: 2px solid #cccccc;
+    position: fixed;
     width: 100%;
 }
 
 #logo {
     width: 250px;
     height: 90px;
+    background: #4aaaa5;
     float: left;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
     line-height: 90px;
     color: #ffffff;
-    font-weight: 700;
+    font-weight: 700px;
     font-size: 30px;
     text-decoration: none; 
 }
-    
+
+nav {
+    color: #999999;
+    text-decoration: none;
+    margin-left: 15px;
+    display: inline-block;
+    border-left: 15px;
+    line-height: 18px;
+}
+
+nav a: :first-child{
+    border-left: 0 none;
+}
